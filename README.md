@@ -1,8 +1,8 @@
 ## This is the official repository of the paper:
-#### Eye-mms: Miniature multi-scale segmentation network of key eye-regions in embedded applications
+#### Eye-MMS: Miniature multi-scale segmentation network of key eye-regions in embedded applications
+Eye-MMS: Paper : [ICCV2019](https://openaccess.thecvf.com/content_ICCVW_2019/papers/OpenEDS/Boutros_Eye-MMS_Miniature_Multi-Scale_Segmentation_Network_of_Key_Eye-Regions_in_Embedded_ICCVW_2019_paper.pdf)
 ### And the model used by IGD team in the paper:
 ### SSBC 2020: Sclera segmentation benchmarking competition in the mobile environment
-Eye-MMS: Paper : [ICCV2019](https://openaccess.thecvf.com/content_ICCVW_2019/papers/OpenEDS/Boutros_Eye-MMS_Miniature_Multi-Scale_Segmentation_Network_of_Key_Eye-Regions_in_Embedded_ICCVW_2019_paper.pdf)
 SSBC 2020: [IJCB2020](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9304881)
 
 
