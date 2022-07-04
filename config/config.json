@@ -1,0 +1,33 @@
+{
+    "model": "EyeMSResNetBlockMSEncoder",
+    "pretrain": false,
+    "channel": 3,
+    "height": 256,
+    "width": 256,
+    "dataset": "sclera",
+
+    "train_set_names": ["SMD"],
+
+    "rotation_limit": 0.0,
+    "elastic_transform_prob": 0.0,
+    "reduction" : 4,
+
+    "loss": "iou",
+
+    "learning_rate": 0.1,
+
+    "schedule": "ExponentialLR",
+    "gamma": 0.95,
+    
+    "step_size": 30,
+
+    "early_stopping": true,
+    "patience": 50,
+
+    "batch": 32,
+    "epochs": 200,
+
+    "save_dir": "checkpoints/",
+    "weights": "checkpoints/EyeMSResNetBlockMSEncoder_iou__c1.pt",
+    "test_output": "result/"
+}
